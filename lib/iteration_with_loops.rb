@@ -10,8 +10,8 @@ def join_nested_strings(src)
         # string_array
         # binding.pry
       end
-      string_array
-      binding.pry
+      # string_array
+      # binding.pry
       inner_count += 1
     end
     string_array
