@@ -8,9 +8,9 @@ def join_nested_strings(src)
         string_array.push(src[count][inner_count])
       end
       string_array
-      #string_array.join(' ')
       inner_count += 1
     end
+    string_array.join(" ")
     count += 1
   end
 end
