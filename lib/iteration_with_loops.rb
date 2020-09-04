@@ -1,6 +1,7 @@
 require 'pry'
 def join_nested_strings(src)
   count = 0
+  joined_strings = []
   while count < src.length do
     inner_count = 0
     string_array = []
@@ -14,7 +15,7 @@ def join_nested_strings(src)
       # binding.pry
       inner_count += 1
     end
-    string_array
+    joined_strings.push(string_array)
     binding.pry
     #string_array.join(" ")
     count += 1
