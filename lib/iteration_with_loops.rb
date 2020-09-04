@@ -15,7 +15,7 @@ def join_nested_strings(src)
       # binding.pry
       inner_count += 1
     end
-    joined_strings.push(string_array)
+    joined_strings.concat(string_array)
     #string_array.join(" ")
     count += 1
   end
