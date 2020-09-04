@@ -15,11 +15,11 @@ def join_nested_strings(src)
   end
 end
 
-# mixed = [
-#   ["The", 4, "quick"],
-#   [-1, "brown", "fox", 30],
-#   ["studied", 101, 233, "Ruby"]
-# ]
+mixed = [
+  ["The", 4, "quick"],
+  [-1, "brown", "fox", 30],
+  ["studied", 101, 233, "Ruby"]
+]
 
 # join_nested_strings(mixed)
 
