@@ -10,7 +10,7 @@ def join_nested_strings(src)
       
       inner_count += 1
     end
-    
+    new_array.join(' ')
     count += 1
   end
 end
