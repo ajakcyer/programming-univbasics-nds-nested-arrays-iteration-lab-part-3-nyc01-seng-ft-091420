@@ -19,7 +19,7 @@ def join_nested_strings(src)
     #string_array.join(" ")
     count += 1
   end
-  joined_strings
+  joined_strings.join(" ")
   binding.pry
 end
 
