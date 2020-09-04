@@ -1,5 +1,6 @@
 def join_nested_strings(src)
   count = 0
+  joined_array
   while count < src.length do
     inner_count = 0
     new_array = []
@@ -10,7 +11,6 @@ def join_nested_strings(src)
       
       inner_count += 1
     end
-    new_array.join(' ')
     count += 1
   end
 end
