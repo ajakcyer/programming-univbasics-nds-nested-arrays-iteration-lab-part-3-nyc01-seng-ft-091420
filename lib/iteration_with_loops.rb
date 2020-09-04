@@ -16,11 +16,10 @@ def join_nested_strings(src)
       inner_count += 1
     end
     joined_strings.push(string_array)
-    binding.pry
     #string_array.join(" ")
     count += 1
   end
-  string_array
+  joined_strings
   binding.pry
 end
 
