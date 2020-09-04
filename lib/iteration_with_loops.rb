@@ -13,7 +13,6 @@ def join_nested_strings(src)
     
     count += 1
   end
-  new_array.join(' ')
 end
 
 mixed_data_1 = [
