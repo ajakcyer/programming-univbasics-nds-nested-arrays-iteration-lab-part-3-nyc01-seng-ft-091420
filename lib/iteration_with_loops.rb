@@ -10,11 +10,11 @@ def join_nested_strings(src)
       end
       inner_count += 1
     end
-    string_array
-    binding.pry
     string_array.join(" ")
     count += 1
   end
+  string_array
+  binding.pry
 end
 
 mixed = [
