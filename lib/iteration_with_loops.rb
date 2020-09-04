@@ -7,7 +7,7 @@ def join_nested_strings(src)
       if src[count][inner_count].class == String
         new_array.push(src[count][inner_count])
       end
-      new_array
+      
       inner_count += 1
     end
     count += 1
