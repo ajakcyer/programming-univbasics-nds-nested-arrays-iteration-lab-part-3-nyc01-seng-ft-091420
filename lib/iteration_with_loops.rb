@@ -4,12 +4,12 @@ def join_nested_strings(src)
   while count < src.length do
     inner_count = 0
     string_array = []
-    binding.pry
     while inner_count < src[count].length do
       if src[count][inner_count].class == String
         string_array.push(src[count][inner_count])
       end
       string_array
+      binding.pry
       inner_count += 1
     end
     string_array.join(" ")
