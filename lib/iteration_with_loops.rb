@@ -13,6 +13,7 @@ def join_nested_strings(src)
     
     count += 1
   end
+  new_array.join(' ')
 end
 
   # src will be an Array of Arrays of Strings and Integers
