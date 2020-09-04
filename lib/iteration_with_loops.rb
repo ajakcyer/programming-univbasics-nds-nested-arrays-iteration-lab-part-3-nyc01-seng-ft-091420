@@ -8,11 +8,7 @@ def join_nested_strings(src)
     while inner_count < src[count].length do
       if src[count][inner_count].class == String
         string_array.push(src[count][inner_count])
-        # string_array
-        # binding.pry
       end
-      # string_array
-      # binding.pry
       inner_count += 1
     end
     joined_strings.concat(string_array)
@@ -20,7 +16,6 @@ def join_nested_strings(src)
     count += 1
   end
   joined_strings.join(" ")
-  binding.pry
 end
 
 mixed = [
