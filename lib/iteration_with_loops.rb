@@ -7,8 +7,8 @@ def join_nested_strings(src)
     while inner_count < src[count].length do
       if src[count][inner_count].class == String
         string_array.push(src[count][inner_count])
-        string_array
-        binding.pry
+        # string_array
+        # binding.pry
       end
       string_array
       binding.pry
