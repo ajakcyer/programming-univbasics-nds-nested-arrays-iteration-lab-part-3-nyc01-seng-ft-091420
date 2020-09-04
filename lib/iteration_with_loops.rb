@@ -8,10 +8,10 @@ def join_nested_strings(src)
       if src[count][inner_count].class == String
         string_array.push(src[count][inner_count])
       end
-      string_array
-      binding.pry
       inner_count += 1
     end
+    string_array
+    binding.pry
     string_array.join(" ")
     count += 1
   end
